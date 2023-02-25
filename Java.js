@@ -1,4 +1,3 @@
-
 document.getElementById("boton1").onclick = function () {
     console.log("Cambio de texto por numero telefonico");
     document.getElementById("N1").innerHTML = "Teléfono: 0875-432302."
