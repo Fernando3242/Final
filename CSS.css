@@ -1,6 +1,27 @@
-p img{float: right/*{margin: 10px 10px 10px 200px;}*/} 
+div img{float:right} 
 h1 {
     margin-right: 70px;
     margin-left: 70px;
     }
-body {font-family: 'Titillium Web', sans-serif; background-color :#def5fc; }
+@media only screen and (min-width: 400px) {
+    body {
+     background-color :#7ccde6;
+    }
+  }
+  @media only screen and (max-width: 401px) {
+    body {
+     background-color :#f5e09a;
+    }
+  }
+  nav {
+    display: block;
+    padding: 8px;
+    background-color: #8beb78;
+  }
+  p { font-size: 24px;font-family: 'Prompt', sans-serif; }
+  ul { font-size: 24px;font-family: 'Prompt', sans-serif;}
+  button {font-size: 15px;font-family: 'Prompt', sans-serif;}
+  h1 {font-size: 45px;font-family: 'Prompt', sans-serif;}
+  h2 {font-size: 34px;font-family: 'Prompt', sans-serif;}
+  nav {font-family: 'Anton', sans-serif;}
+  form {font-size: 24px;font-family: 'Prompt', sans-serif;}

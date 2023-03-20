@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,300&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
     <link rel="stylesheet" href="CSS.css">
     <link rel="shortcut icon" href="https://img.freepik.com/foto-gratis/guy-worldface-britanico-fondo-blanco_53876-14467.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,300&display=swap" rel="stylesheet">
     
 </head>
 <body>
-  
+    <nav>
+        <img src="https://img.freepik.com/foto-gratis/guy-worldface-britanico-fondo-blanco_53876-14467.jpg" width="40px" height="40px"
+    style="margin-left: 9px; margin-right: 9px">
+    <a href="index.html" style="margin-left: 9px; margin-right: 9px">Inicio </a> 
+    <a href="index(3).html"style="margin-left: 9px; margin-right: 9px"> Formación Académica</a>
+    <a href="index(2).html"style=" margin-left: 9px; margin-right: 9px">Experiencia laboral</a>
+    </nav>
     <h1>Curriculum Vitae</h1>
-    <p>
-         <img src="https://img.freepik.com/foto-gratis/guy-worldface-britanico-fondo-blanco_53876-14467.jpg" alt="mi foto" width="230px" height="230px">
-    </p>
+<div>
+    <img src="https://img.freepik.com/foto-gratis/guy-worldface-britanico-fondo-blanco_53876-14467.jpg" alt="mi foto" width="230px" height="230px">
+</div>
         <ul>
-            <li> Nombre: Juan Manuel</li>  
+            <li> Nombre: Juan Manuel</li>   
             <li>Apellido: Rodríguez</li>
             <li>DNI: 30.721.530</li>
             <li>Cuil: 19-30721530-8</li>
@@ -27,36 +34,20 @@
             <li>Teléfono: 0875-350917</li>
             <li>E-mail: JuanRodiguez@gmail.com</li>
         </ul>
-<h2>Formación Académica</h2>
-<p>
-    
-    Educación primaria, completa.
-    En la escuela Nº 17 "San Martin" desde 1982 hasta 1988.
-    <br> 
-    Educación secundaria, completa.<br>
-    En la escuela Nº 45 "Manuel Belgrano" con bachillerato en orientación en contabilidad y administración  de empresa desde 1989 hasta 1995.
-    <br>
-    Educación superior, completa. <br>
-    Licenciatura en administración de medianas y grandes empresas, en el instituto superior Nº 128 "Artigas", desde 1996 hasta 2001.
-</p>
-<h2>Experiencia laboral.</h2>
-<p>
-Atención al cliente en “kiosco Latita”. En 8 de junio 1550. Desde 1994 hasta 1996. <br> 
-  <p id="N1">Teléfono: Para ver numero precionar el boton</p>
- <button type="button" id="boton1"> Hacer clik aqui.</button><br>
-Atención al cliente en “Supermercado Coto”. Sarmiento 986. Desde 1996 hasta 2003. <br>
-<p id="N2">Teléfono: Para ver numero precionar el boton</p>
-<button type="button" id="boton2"> Hacer clik aqui.</button>
+<form action="#">
 <br>
-<h2>trabajo actual.</h2>
-Puesto actual de Administrador en siderurguica “Iron”. ubicada en ruta Nº 75, en el km 12.
-<p id="N3">Teléfono: Para ver numero precionar el boton.</p>
-    <button type="button" id="boton3"> Hacer clik aqui.</button><br>
-<p id="N4">E-mail: Para ver correo electronico precionar el boton.</p>
-<button type="button" id="boton4"> Hacer clik aqui.</button>
-
-  <script src="Java.js"></script>
-</p>
-
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="user_name">
+    <br>
+    <label for="mail">Correo electrónico:</label>
+    <input type="email" id="mail" name="user_mail">
+   <br>
+    <label for="msg">Mensaje:</label>
+    <textarea id="msg" name="user_message"></textarea>
+    <br>   
+    <button type="submit">Envíe su mensaje</button>
+    
+    
+</form>
 <body>
 </html>
